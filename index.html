@@ -23,85 +23,173 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+        <div id="container">
+            <div class="container">
+                <header>
+                    <section class="container">
+                        <a href="#"><image src="img/logo.png"></a>
+                        <hr>
+                            <div class="navbar navbar-inverse">
+                            <div class="container">                  
+                              <div class="top-bar">
+
+                                  <ul class="nav nav-pills">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">Action</a></li>
+                                      <li><a href="#">Another action</a></li>
+                                      <li><a href="#">Something else here</a></li>
+                                      <li class="divider"></li>
+                                      <li class="dropdown-header">Nav header</li>
+                                      <li><a href="#">Separated link</a></li>
+                                      <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">Action</a></li>
+                                      <li><a href="#">Another action</a></li>
+                                      <li><a href="#">Something else here</a></li>
+                                      <li class="divider"></li>
+                                      <li class="dropdown-header">Nav header</li>
+                                      <li><a href="#">Separated link</a></li>
+                                      <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                                  </li>
+                                    <li><a href="#">Forum</a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                        <hr>
+                    </section>
+                </header><!-- end header -->
+                
+                <!-- main body of #main -->
+                <div id="main" role="main">
+                    <section class="container">
+                        <image src="img/accordion.png">
+                        <image src="img/facebook.jpg" alt="facebook">
+                    </section>
+                    <section class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div id="first-sidebar">
+                                    <div class="wideget">
+                                        <h2>Site Navigation</h2>
+                                         <ul id="menu-categories-menu">
+                                            <li><a href="#"></a>Home page</li>
+                                            <li><a href="#"></a>About</li>
+                                            <li><a href="#"></a>FAQs</li>
+                                            <li><a href="#"></a>Contact</li>
+                                            <li><a href="#"></a>Forum</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wideget">
+                                        <h2>RSS Feeds</h2>
+                                        <p class="date">August, 20, 2013</p>
+                                        <a href="#"><h4>Tạo Tabs với CSS3</h4></a>
+                                        <p>Ở trong tutorial này mình sẽ hướng dẫn các bạn làm Tab Nội Dung với CSS3. Trước đây mọi người vẫn hay làm bằng jquery, nhưng từ khi có sự ra đời của CSS3 thì công việc này được đơn giản đi rất nhiều. Đối với những bạn chưa biết gì về Jquery có lẻ tutorial này sẽ làm các bạn thấy thích thú.</p>
+                                    </div>
+                                </div><!--end first-side-bar-->
+                            </div>
+                            <div class="col-md-7">
+                                <div id="main-contend">
+                                    <a href="#"><h2>Video</h2></a>
+                                    <div class="post">
+                                        <a href="#"><img src="img/post.jpg" alt="post image"></a>
+                                        <a href="#"><h3>Tạo Tabs với CSS3</h3></a>
+                                        <p>Ở trong tutorial này mình sẽ hướng dẫn các bạn làm Tab Nội Dung với CSS3. Trước đây mọi người vẫn hay làm bằng jquery, nhưng từ khi có sự ra đời của CSS3 thì công việc này được đơn giản đi rất nhiều. Đối với những bạn chưa biết gì về Jquery có lẻ tutorial này sẽ làm các bạn thấy thích thú.</p>
+                                        <p class="meta-data">By KhacThuan</p>
+                                        <a class="comment-link">6</a>
+                                        <a class="more-link" href="#">Read more</a>
+                                    </div><!--end post-->
+                                    <a href="#"><h2>PHP Videos</h2></a>
+                                    <div class="post">
+                                        <a href="#"><img src="img/post.jpg" alt="post image"></a>
+                                        <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
+                                        <p>Ở trong tutorial này mình sẽ hướng dẫn các bạn làm Tab Nội Dung với CSS3. Trước đây mọi người vẫn hay làm bằng jquery, nhưng từ khi có sự ra đời của CSS3 thì công việc này được đơn giản đi rất nhiều. Đối với những bạn chưa biết gì về Jquery có lẻ tutorial này sẽ làm các bạn thấy thích thú.</p>
+                                        <p class="meta-data">By KhacThuan</p>
+                                        <a class="comment-link">6</a>
+                                        <a class="more-link" href="#">Read more</a>
+                                    </div><!--end post-->
+                                    <a href="#"><h2>jQuery Tut</h2></a>
+                                    <div class="post">
+                                        <a href="#"><img src="img/post.jpg" alt="post image"></a>
+                                        <a href="#"><h3>Lorem ipsum dolor sit amet</h3></a>
+                                        <p>Ở trong tutorial này mình sẽ hướng dẫn các bạn làm Tab Nội Dung với CSS3. Trước đây mọi người vẫn hay làm bằng jquery, nhưng từ khi có sự ra đời của CSS3 thì công việc này được đơn giản đi rất nhiều. Đối với những bạn chưa biết gì về Jquery có lẻ tutorial này sẽ làm các bạn thấy thích thú.</p>
+                                        <p class="meta-data">By KhacThuan</p>
+                                        <a class="comment-link">6</a>
+                                        <a class="more-link" href="#">Read more</a>
+                                    </div><!--end post-->
+                                </div><!--end main-content-->
+                            </div>
+                            <div class="col-md-3">
+                                <div id="second-sidebar">
+                                    <ul class="tabs">
+                                        <li><a href="#random">Random</a></li>
+                                        <li><a href="#news">Recent</a></li>
+                                        <li><a href="#popular">Popular</a></li>
+                                    </ul>
+                                    <div class="tab_contener">
+                                        <div class="tab_content" id="random">
+                                            <ul>
+                                                <li><a href="#">abcdef</a></li>
+                                                <li><a href="#">ghijk</a></li>
+                                                <li><a href="#">lmnop</a></li>
+                                                <li><a href="#">qrst</a></li>
+                                                <li><a href="#">wxyz</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="tab_content" id="news">
+                                            <ul>
+                                                <li><a href="#">abcdef</a></li>
+                                                <li><a href="#">ghijk</a></li>
+                                                <li><a href="#">lmnop</a></li>
+                                                <li><a href="#">qrst</a></li>
+                                                <li><a href="#">wxyz</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="tab_content" id="popular">
+                                            <ul>
+                                                <li><a href="#">abcdef</a></li>
+                                                <li><a href="#">ghijk</a></li>
+                                                <li><a href="#">lmnop</a></li>
+                                                <li><a href="#">qrst</a></li>
+                                                <li><a href="#">wxyz</a></li>
+                                            </ul>
+                                        </div>
+                                    </div><!--end tab-content-->
+                                    <div class="widget">
+                                        <h2>Discussion</h2>
+                                        <ul>
+                                            <li><strong><a href="#">abc def ghi jkl mno pqr stu vwx yz</a></strong></li>
+                                            <li><strong><a href="#">abc def ghi jkl mno pqr stu vwx yz</a></strong></li>
+                                            <li><strong><a href="#">abc def ghi jkl mno pqr stu vwx yz</a></strong></li>
+                                        </ul>
+                                    </div>
+                                </div><!--end second-sidebar-->
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div> 
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
+<!--        end id-containner-->
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-      </div>
-    </div>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-       </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-        </div>
-      </div>
 
-      <hr>
 
-      <footer>
-        <p>&copy; Company 2013</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+                <footer>
+                  <p>&copy; Company 2013</p>
+                </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
